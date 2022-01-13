@@ -1,0 +1,21 @@
+.box {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box em::before{
+  content: "\a";
+  white-space: pre;
+}
+
+.box strong {
+  font-size: 5rem;
+}
+
+.box em {
+  font-size: 1rem;
+}
